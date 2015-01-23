@@ -14,7 +14,7 @@ namespace WebApplication8
         SqlConnection cn;
         protected void Page_Load(object sender, EventArgs e)
         {
-            cn = new SqlConnection(@"Data Source=FAC\SQLEXPRESS2008;Initial Catalog=MySampleDb;Integrated Security=True");
+            cn = new SqlConnection(@"Server=c7b3df84-c1c0-483b-81ee-a42900abb864.sqlserver.sequelizer.com;Database=dbc7b3df84c1c0483b81eea42900abb864;User ID=wiyqiurndtqtnqzc;Password=GgiXFixcKYErQyV5nXBNFt2uecpChr3iJrdxoxuS55dDrzYQ7SGQkpGonWSC243t;");
         }
 
         protected void Button1_Click(object sender, EventArgs e)
